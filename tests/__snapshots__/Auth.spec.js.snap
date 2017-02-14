@@ -1,0 +1,108 @@
+exports[`Auth renders correctly 1`] = `
+<div
+  className="authComponent">
+  <div>
+    <label
+      htmlFor="username">
+      Username:
+    </label>
+    <input
+      id="username"
+      onChange={[Function]}
+      type="text" />
+  </div>
+  <div>
+    <label
+      htmlFor="password">
+      Password:
+    </label>
+    <input
+      className=""
+      id="password"
+      onChange={[Function]}
+      type="password" />
+  </div>
+  <div
+    className="submit">
+    <button
+      onClick={[Function]}>
+      Sign in
+    </button>
+  </div>
+  <div />
+</div>
+`;
+
+exports[`Auth should handle password validation 1`] = `
+<div
+  className="authComponent">
+  <div>
+    <label
+      htmlFor="username">
+      Username:
+    </label>
+    <input
+      id="username"
+      onChange={[Function]}
+      type="text" />
+  </div>
+  <div>
+    <label
+      htmlFor="password">
+      Password:
+    </label>
+    <input
+      className=""
+      id="password"
+      onChange={[Function]}
+      type="password" />
+  </div>
+  <div
+    className="submit">
+    <button
+      onClick={[Function]}>
+      Sign in
+    </button>
+  </div>
+  <div />
+</div>
+`;
+
+exports[`Auth should handle password validation 2`] = `
+<div
+  className="authComponent">
+  <div>
+    <label
+      htmlFor="username">
+      Username:
+    </label>
+    <input
+      id="username"
+      onChange={[Function]}
+      type="text" />
+  </div>
+  <div>
+    <label
+      htmlFor="password">
+      Password:
+    </label>
+    <input
+      className="invalid"
+      id="password"
+      onChange={[Function]}
+      type="password" />
+    <div
+      className="error">
+      Password should be more then 6 symbols
+    </div>
+  </div>
+  <div
+    className="submit">
+    <button
+      onClick={[Function]}>
+      Sign in
+    </button>
+  </div>
+  <div />
+</div>
+`;
